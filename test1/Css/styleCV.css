@@ -1,8 +1,9 @@
 .body {
     background: url("test1/image/vutru.gif");
     background-size: cover;
-}
 
+
+}
 .avatar {
     width: 168px;
     height: 168px;
@@ -23,7 +24,7 @@
 
 ul {
     list-style-type: none;
-    margin: 0px;
+    margin: 0;
     padding: 20px;
     overflow: hidden;
     background-color: greenyellow;
@@ -34,8 +35,33 @@ li {
 
 }
 
-*{ /*sua mau, font chu*/
-    color: blue;
+hr {
+    /*solid-color: blue;*/
+}
+
+* { /*sua mau, font chu*/
+    color: darkred;
     font-family: 'Arima', cursive;
+
+}
+
+.relative {
+    position: relative;
+    top: -50px;
+
+}
+
+.left_sidebar {
+    float: left;
+    width: 50%;
+    background: red;
+
+
+}
+
+.right_sidebar {
+    float: right;
+    width: 50%;
+    background: blueviolet;
 
 }
