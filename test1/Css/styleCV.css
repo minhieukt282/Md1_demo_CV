@@ -1,0 +1,35 @@
+.body {
+    background-color: ghostwhite;
+}
+
+.avatar {
+    width: 168px;
+    height: 168px;
+    border-radius: 50%; /*bo goc*/
+}
+
+.left_avt {
+
+    height: auto;
+}
+
+.nav {
+    position: absolute;
+    top: 270px;
+    width: 250px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: greenyellow;
+}
+
+li {
+    display: inline;
+
+}
+
