@@ -1,5 +1,6 @@
 .body {
-    background-color: ghostwhite;
+    background: url("test1/image/vutru.gif");
+    background-size: cover;
 }
 
 .avatar {
@@ -33,3 +34,8 @@ li {
 
 }
 
+*{ /*sua mau, font chu*/
+    color: blue;
+    font-family: 'Arima', cursive;
+
+}
