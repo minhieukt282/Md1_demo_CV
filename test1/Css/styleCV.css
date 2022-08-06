@@ -2,7 +2,7 @@
     background: url("test1/image/vutru.gif");
     background-size: cover;
     /*text-align: center;*/
-    width: 1200px;
+    /*width: 1200px;*/
 
 }
 
@@ -56,7 +56,6 @@ hr {
     width: 40%;
     /*background: red;*/
     /*border: 1px solid black;*/
-
 
 }
 
