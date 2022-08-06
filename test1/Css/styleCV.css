@@ -1,25 +1,26 @@
 .body {
     background: url("test1/image/vutru.gif");
     background-size: cover;
-
+    /*text-align: center;*/
+    width: 1200px;
 
 }
+
+.upper {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.lower {
+    background-color: yellow;
+    text-align: center;
+}
+
+
 .avatar {
     width: 168px;
     height: 168px;
     border-radius: 50%; /*bo goc*/
-}
-
-.left_avt {
-
-    height: auto;
-}
-
-.nav {
-    position: absolute;
-    top: 270px;
-    width: 250px;
-    text-align: center;
 }
 
 ul {
@@ -27,16 +28,16 @@ ul {
     margin: 0;
     padding: 20px;
     overflow: hidden;
-    background-color: greenyellow;
+    /*background-color: greenyellow;*/
 }
 
 li {
     display: inline;
-
 }
 
 hr {
-    /*solid-color: blue;*/
+    border: 6px;
+    solid-color: blue;
 }
 
 * { /*sua mau, font chu*/
@@ -48,20 +49,31 @@ hr {
 .relative {
     position: relative;
     top: -50px;
-
 }
 
 .left_sidebar {
     float: left;
-    width: 50%;
-    background: red;
+    width: 40%;
+    /*background: red;*/
+    /*border: 1px solid black;*/
 
 
 }
 
 .right_sidebar {
     float: right;
-    width: 50%;
-    background: blueviolet;
+    width: 60%;
+    /*background: blueviolet;*/
+    /*border: 1px solid black;*/
+}
 
+table, tr, td, th {
+    background-color: whitesmoke;
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+td {
+    width: 30px;
 }
